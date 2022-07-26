@@ -4,19 +4,15 @@
   "license": "MIT",
   "type": "module",
   "idyll": {
-    "theme": "tufte",
-    "layout": "centered",
+    "theme": "none",
+    "layout": "none",
     "css": "styles.css",
     "authorView": false,
     "output": "../../docs/[slug]/",
     "components": [
       "../../components/",
       "components"
-    ],
-	"googleFonts": [
-		"roboto",
-		"lato"
-	]
+    ]
   },
   "dependencies": {
     "idyll": "6.0.0-alpha.4",

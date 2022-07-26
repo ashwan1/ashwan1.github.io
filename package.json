@@ -4,15 +4,11 @@
   "license": "MIT",
   "type": "module",
   "idyll": {
-    "theme": "tufte",
-    "layout": "centered",
+    "theme": "none",
+    "layout": "none",
     "css": "styles.css",
     "authorView": false,
-    "output": "docs/",
-	"googleFonts": [
-		"roboto",
-		"lato"
-	]
+    "output": "docs/"
   },
   "dependencies": {
     "d3": "7",
@@ -20,5 +16,13 @@
     "d3-transition": "^2.0.0",
     "idyll": "6.0.0-alpha.4",
     "idyll-d3-component": "^2.0.0"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss styles.css",
+    "css-watch": "npm run css-build -- --watch"
   }
 }

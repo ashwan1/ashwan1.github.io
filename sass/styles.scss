@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Major+Mono+Display&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600&display=swap');
+
+$family-sans-serif: "Roboto Flex", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+@import "../node_modules/bulma/bulma.sass";
+
+$theme-color: $orange;
+
+html {
+  font-size: 20px;
+  padding-top: 3.25rem;
+}
+
+body {
+  word-wrap: break-word;
+  padding: 0 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato";
+  line-height: 1.3;
+  margin: 0.5rem 0;
+  color:$theme-color !important;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
+.navbar-brand .navbar-item {
+  font-family: 'Major Mono Display', monospace;
+  font-weight: 600;
+  color: $theme-color;
+  font-size: x-large;
+}
+.navbar-brand .navbar-item span {
+  font-size: 0.75em;
+  font-weight: 400;
+  color: black;
+}
+.navbar-brand .navbar-burger {
+  color: $theme-color;
+}
+.navbar-menu a {
+  color: $theme-color;
+}
+
+.hero .hero-body {
+  background-image: url(../static/images/wip.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: end;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 3px 4px 5px black;
+}
