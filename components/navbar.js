@@ -21,7 +21,7 @@ class NavBar extends React.Component {
         <div id="navbarMenu" className={"navbar-menu " + (isActive ? "is-active" : null)}>
           <div className="navbar-end">
             <a className="navbar-item">About</a>
-            <a className="navbar-item">Blog</a>
+            <a className="navbar-item" href='./post-1/'>Explorables</a>
             <a className="navbar-item">Portfolio</a>
           </div>
         </div>
