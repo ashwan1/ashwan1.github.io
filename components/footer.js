@@ -3,7 +3,7 @@ import React from 'react';
 class Footer extends React.Component {
     render() {
       return (
-        <footer className="footer">
+        <footer className="footer mt-5 has-top-border">
           <div className="columns is-size-7">
             <div className='column is-half'>
               &copy; 2022 Personal website of Ashwani Pandey <br />

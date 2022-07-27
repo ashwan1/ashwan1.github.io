@@ -1,15 +1,6 @@
-[meta title:"Post 1" description:"Short description of your project" /]
+[meta title:"Explorables" description:"Short description of your project" /]
 
-[Header
-  fullWidth:true
-  title:"Post 1"
-  subtitle:"Welcome to Idyll. Open index.idyll to start writing"
-  author:"Your Name Here"
-  authorLink:"https://idyll-lang.org"
-  date:"Jul 24, 2022"
-  background:"#222222"
-  color:"#ffffff"
-   /]
+[NavBar /]
 
 ## Introduction
 
@@ -114,3 +105,6 @@ Here is how you can instantiate a variable and bind it to a component:
 
 To learn more see the documentation at [https://idyll-lang.org/docs/](https://idyll-lang.org/docs/),
 join our [chatroom](https://gitter.im/idyll-lang/Lobby), or see the project on [GitHub](https://github.com/idyll-lang/idyll).
+
+
+[Footer /]
