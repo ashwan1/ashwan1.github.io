@@ -1,27 +1,32 @@
 import React from 'react';
 
 class NavBar extends React.Component {
+
+  state = { isActive: false };
+
   render() {
+    const isActive = this.state.isActive;
     return (
-      <nav class="navbar is-fixed-top is-transparent">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="https://ashwan1.github.io/site/">A<span>shwan</span>I</a>
-          <a class="navbar-burger" data-target="navbarMenu">
+      <nav className="navbar is-fixed-top is-transparent">
+        <div className="navbar-brand">
+          <a className="navbar-item" href="https://ashwan1.github.io/site/">A<span>shwan</span>I</a>
+          <a className={"navbar-burger " + (isActive ? "is-active" : null)} data-target="navbarMenu" 
+            onClick={() => this.setState({ isActive: !this.state.isActive })}>
             <span></span>
             <span></span>
             <span></span>
           </a>
         </div>
 
-        <div id="navbarMenu" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item">About</a>
-            <a class="navbar-item">Blog</a>
-            <a class="navbar-item">Portfolio</a>
+        <div id="navbarMenu" className={"navbar-menu " + (isActive ? "is-active" : null)}>
+          <div className="navbar-end">
+            <a className="navbar-item">About</a>
+            <a className="navbar-item">Blog</a>
+            <a className="navbar-item">Portfolio</a>
           </div>
         </div>
       </nav>
-    )
+    );
   }
 }
 

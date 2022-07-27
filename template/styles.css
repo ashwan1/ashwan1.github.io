@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Flex:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Major+Mono+Display&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600&display=swap");
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .button, .input, .textarea, .select select, .file-cta,
@@ -300,7 +300,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Roboto Flex", "Lato", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "Roboto Flex", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 code,
 pre {
@@ -7045,13 +7045,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Roboto Flex", "Lato", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Roboto Flex", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Roboto Flex", "Lato", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Roboto Flex", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Roboto Flex", "Lato", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Roboto Flex", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
@@ -7876,3 +7876,61 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+html {
+  font-size: 20px;
+  padding-top: 3.25rem; }
+
+body {
+  word-wrap: break-word; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato";
+  line-height: 1.3;
+  margin: 0.5rem 0;
+  color: #ff470f !important; }
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: 600; }
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 400; }
+
+h3 {
+  font-size: 1.5rem; }
+
+h4 {
+  font-size: 1.15rem; }
+
+.navbar-brand .navbar-item {
+  font-family: 'Major Mono Display', monospace;
+  font-weight: 600;
+  color: #ff470f;
+  font-size: x-large; }
+
+.navbar-brand .navbar-item span {
+  font-size: 0.75em;
+  font-weight: 400;
+  color: black; }
+
+.navbar-brand .navbar-burger {
+  color: #ff470f; }
+
+.navbar-menu a {
+  color: #ff470f; }
+
+.hero .hero-body {
+  background-image: url(../static/images/wip.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: end;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 3px 4px 5px black; }
