@@ -65,6 +65,9 @@ h4 {
 .navbar-menu a {
   color: $theme-color;
 }
+.navbar-burger:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
 
 .hero .hero-body {
   background-image: url(../static/images/wip.jpg);
