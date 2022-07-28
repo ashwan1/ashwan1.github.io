@@ -9,7 +9,7 @@ class NavBar extends React.Component {
     return (
       <nav className="navbar is-fixed-top is-transparent">
         <div className="navbar-brand">
-          <a className="navbar-item" href="/">A<span>shwan</span>I</a>
+          <a className="navbar-item" href="/">A<span>shwan</span>i</a>
           <a className={"navbar-burger " + (isActive ? "is-active" : null)} data-target="navbarMenu" 
             onClick={() => this.setState({ isActive: !this.state.isActive })}>
             <span></span>

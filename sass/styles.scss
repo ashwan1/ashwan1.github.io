@@ -48,6 +48,16 @@ h4 {
   font-size: 1.15rem;
 }
 
+a {
+  color: $theme-color;
+}
+a:hover {
+  color: #485fc7 !important;
+}
+a.icon img:hover {
+  filter: drop-shadow(2px 4px 6px black);
+}
+
 .navbar-brand .navbar-item {
   font-family: 'Major Mono Display', monospace;
   font-weight: 600;
