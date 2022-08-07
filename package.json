@@ -15,7 +15,8 @@
     "d3-selection": "^2.0.0",
     "d3-transition": "^2.0.0",
     "idyll": "6.0.0-alpha.4",
-    "idyll-d3-component": "^2.0.0"
+    "idyll-d3-component": "^2.0.0",
+    "react-ga4": "^1.4.1"
   },
   "devDependencies": {
     "bulma": "^0.9.4",
