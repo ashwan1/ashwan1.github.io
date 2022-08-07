@@ -1,0 +1,14 @@
+[Ga4Analytics google:"G-ZZCRW3WSSS" /]
+[meta title:"AI for plastic pollution" description:"In this blog/explorable we explore how artificial intelligence or machine learning / Deep learning is helping us combat plastic pollution." /]
+
+[NavBar /]
+
+[PageBanner title:"AI For Plastic Pollution" 
+  description: "Explore how ML is helping us combat plastic pollution"
+  imgUrl: "/explorables/static/images/plastic_pollution.jpg"
+  titleTextClass: "has-text-black-ter"
+  subTitleTextClass: "has-text-grey-dark" /]
+
+Work in progress...
+
+[Footer /]

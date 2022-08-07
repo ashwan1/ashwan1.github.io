@@ -7938,14 +7938,9 @@ a.icon img:hover {
 .navbar-burger:hover {
   background-color: rgba(0, 0, 0, 0) !important; }
 
-.hero .hero-body {
-  background-image: url(../static/images/wip.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: end;
-  color: white;
-  font-size: 3rem;
-  text-shadow: 3px 4px 5px black; }
-
 .has-top-border {
   border-top: #898989 1px solid; }
+
+.bgHeroImage {
+  background-repeat: no-repeat;
+  background-size: cover; }

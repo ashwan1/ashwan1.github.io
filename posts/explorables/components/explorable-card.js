@@ -6,7 +6,6 @@ class ExplorableCard extends React.Component {
         const tagItems = tags.map((tag) => {
                 return (<span key={tag} className="tag mr-1 mb-1">{tag}</span>)
             });
-        console.log(tagItems);
         return (
             <div className="card">
                 <div className="card-image">

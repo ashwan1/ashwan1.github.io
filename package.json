@@ -11,6 +11,7 @@
     "output": "docs/"
   },
   "dependencies": {
+    "classnames": "^2.3.1",
     "d3": "7",
     "d3-selection": "^2.0.0",
     "d3-transition": "^2.0.0",

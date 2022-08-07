@@ -15,8 +15,8 @@
             description:"Explore various use cases where AI is helping to solve plastic problem."
             publishedOn:"2022-07-28"
             imgSrc:"static/images/plastic_pollution.jpg"
-            explorableUrl:"/"
-            tags:`["ai4earth", "use case", "ml", "dummy", "help"]` /]
+            explorableUrl:"/ai4plasticpollution/"
+            tags:`["ai4earth", "use case", "ml"]` /]
         [/div]
       [/div]
     [/div]

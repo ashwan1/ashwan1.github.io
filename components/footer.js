@@ -7,7 +7,8 @@ class Footer extends React.Component {
           <div className="columns is-size-7">
             <div className='column is-half'>
               &copy; 2022 Personal website of Ashwani Pandey <br />
-              Powered by <a href='https://idyll-lang.org/docs'>Idyll</a>
+              Powered by <a href='https://idyll-lang.org/docs'>Idyll</a> <br />
+              Styled by <a href='https://bulma.io/'>Bulma</a>
             </div>
             <div className='column has-text-right-tablet is-half'>
             <a className='pl-2 icon' href='https://github.com/ashwan1' target='_blank'><img src="/static/images/github.svg" width="25" height="25" /></a>

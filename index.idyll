@@ -2,7 +2,7 @@
 [meta title:"About | Ashwani's website" description:"Personal website for Ashwani Pandey containing blogs, portfolio, resume and others." /]
 
 [NavBar /]
-[section className:"hero is-fullheight"]
+[section className:"hero is-fullheight is-info"]
   [div className:"hero-body"]
     Work in progress. [br/] Please visit later.
   [/div]
