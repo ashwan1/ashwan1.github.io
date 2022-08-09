@@ -4,6 +4,21 @@ class NavBar extends React.Component {
 
   state = { isActive: false };
 
+  componentDidMount(){
+    try {
+      (function(w, d, o) {
+        const faviconLinkNode = d.createElement('link');
+        const firstONode = d.getElementsByTagName(o)[0];
+        faviconLinkNode.rel = 'icon';
+        faviconLinkNode.type = 'image/x-icon';
+        faviconLinkNode.href = '/favicon.ico'
+        firstONode.parentNode.insertBefore(faviconLinkNode, firstONode);
+    })(window, document, 'link');
+    } catch (error) {
+      console.log('Could not load favicon: ' + error);
+    }
+  }
+
   render() {
     const isActive = this.state.isActive;
     return (

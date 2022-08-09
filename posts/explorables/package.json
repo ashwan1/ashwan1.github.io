@@ -8,7 +8,7 @@
     "layout": "none",
     "css": "styles.css",
     "authorView": false,
-    "output": "../../docs/explorables/",
+    "favicon": "/static/favicon.ico",
     "components": [
       "../../components/",
       "components"
