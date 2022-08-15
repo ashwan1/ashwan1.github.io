@@ -13,11 +13,9 @@ class Carousel extends React.Component {
 
     render() {
         return(
-            <section className={'section ' + this.props.bgColor}>
-                <div className='container'>
-                    <div className='carousel'>
-                    {this.props.children}
-                    </div>
+            <section className={'section pb-0 pt-0 hero ' + this.props.bgColor}>
+                <div className='hero-carousel'>
+                {this.props.children}
                 </div>
             </section>
         );

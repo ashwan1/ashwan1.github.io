@@ -3,6 +3,7 @@
 
 [NavBar /]
 
+[div]
 [PageBanner title:"AI For Plastic Pollution" 
   description: "Explore how ML is helping us combat plastic pollution"
   imgUrl: "/explorables/static/images/plastic_pollution.jpg"
@@ -23,7 +24,7 @@ in itself. Today, this is not just environmental problem, but literally our prob
 [data name:"plasticInOcean" source:"plastics-in-ocean.csv" /]
 [data name:"plasticFate" source:"global-plastic-fate.csv" /]
 [Carousel bgColor:"has-background-info-light"]
-  [div className:"is-align-items-center is-flex-desktop is-justify-content-center"]
+  [div className:"hero-body is-align-items-center is-flex-desktop is-justify-content-center pb-5 pt-1"]
     [div]
       [GlobalPlasticProductionChart data:globalPlasticPollution/]
     [/div]
@@ -36,7 +37,7 @@ in itself. Today, this is not just environmental problem, but literally our prob
       [a href:"http://advances.sciencemag.org/content/3/7/e1700782.full"]Source[/a]
     [/div]
   [/div]
-  [div className:"is-align-items-center is-flex-desktop is-justify-content-center"]
+  [div className:"hero-body is-align-items-center is-flex-desktop is-justify-content-center pb-5 pt-1"]
     [div]
       [PlasticInOcean data:plasticInOcean/]
     [/div]
@@ -49,7 +50,7 @@ in itself. Today, this is not just environmental problem, but literally our prob
       [a href:"https://www.nature.com/articles/s41598-019-49413-5"]Source[/a]
     [/div]
   [/div]
-  [div className:"is-align-items-center is-flex-desktop is-justify-content-center"]
+  [div className:"hero-body is-align-items-center is-flex-desktop is-justify-content-center pb-5 pt-1"]
     [div]
       [PlasticFate data:plasticFate/]
     [/div]
@@ -68,3 +69,4 @@ in itself. Today, this is not just environmental problem, but literally our prob
 Technology can help us fight this problem. And one such technology is 🥁Machine learning🥁. There are many phases of plastic product in which ML can be helpful. Right from efficient packaging, tracking plastic wastes, separating plastic from other wastes, till it's decomposition, ML is been used in every stage. Following is an overview of every stage which I'll talk about today. Click on stage, if u want to know more about it. **WIP**
 [/div]
 [Footer/]
+[/div]

@@ -27,6 +27,7 @@
 [IBM case study: hera-spa](https://www.ibm.com/case-studies/hera-spa/)
 [mkai.org](https://mkai.org/leveraging-ai-to-reduce-plastic-waste/)
 [Coldfusion video](https://www.youtube.com/watch?v=omo0rE4qATY)
+[History of plastic](https://www.sciencemuseum.org.uk/objects-and-stories/chemistry/age-plastic-parkesine-pollution#:~:text=Belgian%20chemist%20and%20clever%20marketeer,phenol%2C%20under%20heat%20and%20pressure.)
 
 ## Data
 - [Get data on plastic pollution](https://ourworldindata.org/plastic-pollution)
