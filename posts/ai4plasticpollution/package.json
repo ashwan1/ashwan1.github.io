@@ -8,6 +8,7 @@
     "layout": "none",
     "css": "styles.css",
     "authorView": false,
+    "no-minify": true,
     "output": "../../docs/ai4plasticpollution/",
     "components": [
       "../../components/",

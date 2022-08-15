@@ -9,6 +9,62 @@
   titleTextClass: "has-text-black-ter"
   subTitleTextClass: "has-text-grey-dark" /]
 
-Work in progress...
+[div className:"container is-max-desktop p-3"]
+In 1907, Belgian chemist, [Leo Baekeland](https://en.wikipedia.org/wiki/Leo_Baekeland), patented first fully synthetic plastic. 
+He named it Bakelite. Then, by accident, polyethylene was discovered again in 1930s (after accidental invention in 1898). It's first use was insulating radar cabling during 2nd world war. But soon, it was used in consumer products like tupperware, shopping bag, etc. But sadly, the properties of plastic which made it so useful, made it curse to our environment. A plastic bottle can last for more than 4 centuries in oceans. Then too, it only breaks down to microscopic particles and never really go away. 
+[br /][br /]
+Then came polyethylene terephthalate (PET) in 1973. It along with polyethylene bags and other plastics increased usage of single
+use plastics by many folds. And our plastic problems got exponentially worse. Today, plastic pollution is one of the most critical 
+environmental hazard. I think, most people will agree with me. Writing just about intensity of plastic  pollution can be a blog 
+in itself. Today, this is not just environmental problem, but literally our problem. Scientists found [microplastic in our body too!!](https://www.sciencedirect.com/science/article/pii/S0160412022001258)
+[/div]
 
-[Footer /]
+[data name:"globalPlasticPollution" source:"global-plastics-production.csv" /]
+[data name:"plasticInOcean" source:"plastics-in-ocean.csv" /]
+[data name:"plasticFate" source:"global-plastic-fate.csv" /]
+[Carousel bgColor:"has-background-info-light"]
+  [div className:"is-align-items-center is-flex-desktop is-justify-content-center"]
+    [div]
+      [GlobalPlasticProductionChart data:globalPlasticPollution/]
+    [/div]
+    [div className:"content is-size-7 pr-1"]
+      [ul]
+        [li]This chart illustrates **global plastic production** from 1950 through to 2015. It's measured in tonnes per year. [/li]
+        [li]Global plastic production **increased ~200 times since 1950**, reaching 381 million tonnes in 2015.[/li]
+        [li]Small downturn in 2009 and 2010 occurred after 2008 global recession.[/li]
+      [/ul]
+      [a href:"http://advances.sciencemag.org/content/3/7/e1700782.full"]Source[/a]
+    [/div]
+  [/div]
+  [div className:"is-align-items-center is-flex-desktop is-justify-content-center"]
+    [div]
+      [PlasticInOcean data:plasticInOcean/]
+    [/div]
+    [div className:"content is-size-7 pr-1"]
+      [ul]
+        [li]This graph illustrates growth of **global plastic accumulation in ocean surface** from 1950 to 2020. [/li]
+        [li]**Macroplastics** are buoyant plastics that are **greater than 0.5 cm in diameter**.[/li]
+        [li]**Microplastics** are buoyant plastics that are **smaller than 0.5 cm in diameter**.[/li]
+      [/ul]
+      [a href:"https://www.nature.com/articles/s41598-019-49413-5"]Source[/a]
+    [/div]
+  [/div]
+  [div className:"is-align-items-center is-flex-desktop is-justify-content-center"]
+    [div]
+      [PlasticFate data:plasticFate/]
+    [/div]
+    [div className:"content is-size-7 pr-1"]
+      [ul]
+        [li]This graph illustrates **estimated share of global plastic waste by disposal method** from 1980 to 2015. [/li]
+        [li]Good news is that percentage of **discarded plastic** is **going down**.[/li]
+        [li]But we still have a long way to go.[/li]
+      [/ul]
+      [a href:"http://advances.sciencemag.org/content/3/7/e1700782.full"]Source[/a]
+    [/div]
+  [/div]
+[/Carousel]
+
+[div className:"container is-max-desktop p-3 content"]
+Technology can help us fight this problem. And one such technology is 🥁Machine learning🥁. There are many phases of plastic product in which ML can be helpful. Right from efficient packaging, tracking plastic wastes, separating plastic from other wastes, till it's decomposition, ML is been used in every stage. Following is an overview of every stage which I'll talk about today. Click on stage, if u want to know more about it. **WIP**
+[/div]
+[Footer/]

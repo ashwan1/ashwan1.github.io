@@ -5,6 +5,7 @@
 $family-sans-serif: "Roboto Flex", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
 @import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma-carousel/src/sass/index.sass";
 
 $theme-color: $orange;
 
@@ -86,4 +87,8 @@ a.icon img:hover {
 .bgHeroImage {
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.slider-navigation-previous, .slider-navigation-next {
+  color: $theme-color;
 }
