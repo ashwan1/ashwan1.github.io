@@ -1,0 +1,16 @@
+
+#mlUses svg text{
+    cursor: pointer;
+}
+
+#mlUses svg text:hover {
+    opacity: 0.5;
+}
+
+#mlUses svg g:nth-child(1) > text {
+    cursor: default !important;
+}
+
+#mlUses svg g:nth-child(1) > text:hover {
+    opacity: 1 !important;
+}

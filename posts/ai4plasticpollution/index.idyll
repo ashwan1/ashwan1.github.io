@@ -1,5 +1,6 @@
 [Ga4Analytics google:"G-ZZCRW3WSSS" /]
 [meta title:"AI for plastic pollution" description:"In this blog/explorable we explore how artificial intelligence or machine learning / Deep learning is helping us combat plastic pollution." /]
+[HtmlHeader /]
 
 [NavBar /]
 
@@ -68,5 +69,14 @@ in itself. Today, this is not just environmental problem, but literally our prob
 [div className:"container is-max-desktop p-3 content"]
 Technology can help us fight this problem. And one such technology is 🥁Machine learning🥁. There are many phases of plastic product in which ML can be helpful. Right from efficient packaging, tracking plastic wastes, separating plastic from other wastes, till it's decomposition, ML is been used in every stage. Following is an overview of every stage which I'll talk about today. Click on stage, if u want to know more about it. **WIP**
 [/div]
+[var name:"textValue" value:""/]
+[BindEventToSvg value:textValue/]
+[div id:"mlUses" className:"columns has-background-warning-light"]
+  [SVG className:"column is-two-fifths" src:"static/images/ml_plastic_usecases.svg"/]
+  [div id:"mlUsesDesc" className:"column is-align-items-center is-flex"]
+  [i]Click on each task to know what more about it.[/i]
+  [/div]
+[/div]
 [Footer/]
 [/div]
+
