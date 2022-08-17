@@ -8047,11 +8047,35 @@ h3 {
 h4 {
   font-size: 1.15rem; }
 
+/*a {
+  color: $theme-color;
+}
+a:hover {
+  color: #485fc7 !important;
+}*/
 a {
-  color: #ff470f; }
+  display: inline-block;
+  position: relative;
+  color: #485fc7; }
 
 a:hover {
   color: #485fc7 !important; }
+
+a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #485fc7;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out; }
+
+a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left; }
 
 a.icon img:hover {
   filter: drop-shadow(2px 4px 6px black); }
