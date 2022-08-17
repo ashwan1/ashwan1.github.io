@@ -49,22 +49,22 @@ h4 {
   font-size: 1.15rem;
 }
 
-/*a {
+a {
   color: $theme-color;
 }
 a:hover {
   color: #485fc7 !important;
-}*/
+}
 
-a {
+div.content a {
   display: inline-block;
   position: relative;
   color: #485fc7;
 }
-a:hover {
+div.content a:hover {
   color: #485fc7 !important;
 }
-a:after {
+div.content a:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -76,7 +76,7 @@ a:after {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-a:hover:after {
+div.content a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
