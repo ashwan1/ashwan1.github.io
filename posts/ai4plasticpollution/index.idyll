@@ -11,11 +11,11 @@
   subTitleTextClass: "has-text-grey-dark" /]
 
 [div className:"container is-max-desktop p-3 content"]
-In 1907, Belgian chemist, [Leo Baekeland](https://en.wikipedia.org/wiki/Leo_Baekeland), patented the first fully synthetic plastic. He named it Bakelite. Then, by accident, polyethylene was discovered again in the 1930s (after the accidental invention in 1898). Its first use was insulating radar cabling during the 2nd world war. But soon, it was used in consumer products like Tupperware, shopping bags, etc. But sadly, the properties of plastic which make it so useful, also make it a curse to our environment. A plastic bottle can last for more than 4 centuries in oceans. Then too, it only breaks down to microscopic particles and never really goes away. 
+In 1907, Belgian chemist, [Leo Baekeland](https://en.wikipedia.org/wiki/Leo_Baekeland), patented the first fully synthetic plastic. He named it Bakelite. Then, by accident, polyethylene was discovered again in the 1930s (after the accidental invention in 1898). Its first use was insulating radar cabling during the 2nd world war. But soon, it was used in consumer products like Tupperware, shopping bags, etc. Then came polyethylene terephthalate (PET) in 1973. It along with polyethylene bags and other plastics increased the usage of single-use plastics by many folds. And our plastic problems got exponentially worse.
 [br /][br /]
-Then came polyethylene terephthalate (PET) in 1973. It along with polyethylene bags and other plastics increased the usage of single-use plastics by many folds. And our plastic problems got exponentially worse. Today, plastic pollution is one of the most critical environmental hazards. I think, most people will agree with me. Writing just about the intensity of plastic pollution can be a blog in itself. Today, plastics can be found in the Antarctic ice and [our bodies too](https://www.sciencedirect.com/science/article/pii/S0160412022001258)!!
+Today, plastic pollution is one of the most critical environmental hazards. Sadly, the properties of plastic which make it so useful, also make it a curse to our environment. A plastic bottle can last for more than 4 centuries in oceans. Then too, it only breaks down to microscopic particles and never really goes away. Writing just about the intensity of plastic pollution can be a blog in itself. Nowadays, plastics can be found in the Antarctic ice and [our bodies too](https://www.sciencedirect.com/science/article/pii/S0160412022001258)!!
 [br /][br /]
-As data enthusiast, I couldn't resist plotting some data. 🙂
+The following charts illustrate the seriousness of the problem.
 [/div]
 
 [data name:"globalPlasticPollution" source:"global-plastics-production.csv" /]
@@ -64,15 +64,47 @@ As data enthusiast, I couldn't resist plotting some data. 🙂
 [/Carousel]
 
 [div className:"container is-max-desktop p-3 content"]
-Technology can help us fight this problem. And one such technology is 🥁Machine learning🥁. There are many phases of plastic products in which ML can be helpful. It can help us with efficient packaging, tracking plastic wastes, separating plastic from other wastes, and its decomposition.
+  🥁Machine learning🥁 can help us fight this problem. There are many phases of plastic products in which ML can be helpful. It can help us with efficient packaging, tracking plastic wastes, separating plastic from other wastes, and its decomposition.
 [/div]
+
 [var name:"textValue" value:""/]
 [BindEventToSvg value:textValue/]
 [div id:"mlUses" className:"columns has-background-warning-light"]
   [SVG className:"column is-two-fifths" src:"static/images/ml_plastic_usecases.svg"/]
   [div id:"mlUsesDesc" className:"column is-align-items-center is-flex pl-5 pr-5 is-size-7-mobile"]
-  [i]Click on each task to know what more about it.[/i]
+  [i]Click on each task to get its summary. Else simply skip to use cases below.[/i]
   [/div]
+[/div]
+
+[div className:"container is-max-desktop p-3 content"]
+  #### Efficient and Sustainable Packaging
+  **Amazon** is using AI to deal with the "wrap rage"  problem. ML has enabled them to reduce per-shipment packaging weight by more than 36% and eliminated more than a million tons of packaging. Amazon has an ever-changing catalog of millions of products. Finding the right amount of packing each is impossible without some cutting-edge automated mechanism. And dealing with a huge amount of data is where ML algorithm shines. Their multimodal deep learning model uses customer feedback and product image to optimize packaging for a given product. Thus reducing waste at the point of origin itself. You can read the related [research paper](https://www.amazon.science/publications/position-paper-reducing-amazons-packaging-wasteusing-multimodal-deep-learning) for more details.
+  [br /][br /]
+  Companies like **L'Oréal** and **Aptar** are also using AI to support their goal of sustainable packaging.  L'Oréal's Sustainable Product Optimization Tool (SPOT) can help them simulate design choices to access the impact on the environment. In 2021, 78% of created or renovated products of L'Oréal had an improved environmental profile due to improved packaging.
+
+  #### Tracking Plastic Waste
+  At **[The Ocean Cleanup project](https://theoceancleanup.com/)**, neural networks are helping them to map and monitor the density of plastic waste in the ocean. Their objective is to determine optimal locations for cleanup operations. They use time-lapsed GPS-tagged images to train a convolutional neural network to perform object detection over more than 400 plastic items. If interested, you can also read the [detailed write-up](https://theoceancleanup.com/updates/using-artificial-intelligence-to-monitor-plastic-density-in-the-ocean/).
+  [br /][br /]
+  **[Global Plastic Watch](https://globalplasticwatch.org/)** is a platform that maps plastic pollution using satellite images and AI. They have identified 2,802 plastic waste sites in 25 countries. You can visit their website to explore the data yourself. This data can help prioritize higher-risk waste sites. Data contains really useful attributes like site area, distance to the water body, area population, etc.
+
+  #### Separating Plastics
+  Hera SpA partnered with IBM to reduce landfill waste by redirecting useful reusable materials to appropriate channels. They aim to use computer vision algorithms to sort waste into various categories. The IBM website has a [detailed blog](https://www.ibm.com/case-studies/hera-spa/) on this if you are interested.
+  [br /][br /]
+  Unilever and Alibaba launched China's first large-scale closed-loop plastic recycling system. During the pilot program, they installed 20 machines in offices and community spaces in Shanghai and Hangzhou. AI tech in machines identifies different kinds of plastic automatically and stores them accordingly. This fast-tracks plastic reuse.
+
+  #### Plastic Decomposition
+  PET accounts for 12% of global solid waste. It can be effectively reused by breaking this polymer into smaller fragments. This is called depolymerization. At The University of Texas at Austin, researchers created an enzyme to do just that. They used a machine learning algorithm to design robust and active enzymes. This research was published in [Nature](https://www.nature.com/articles/s41586-022-04599-z). ColdFusion created an amazing [video](https://www.youtube.com/watch?v=omo0rE4qATY) explaining this research.
+  [br /][br /]
+  [Similar efforts](https://unfolded.deepmind.com/stories/accelerating-the-fight-against-plastic-pollution) are done by scientists at the Centre for Enzyme Innovation at the University of Portsmouth. They are using Deepmind's alphafold to analyze various protein structures to come up with effective enzymes to decompose plastics.
+
+  #### Final Thoughts
+  AI is just a tool. It can help us but is not the solution. A lot of steps are been taken to deal with this problem. Campaigns like [clean seas](https://www.cleanseas.org/) are instrumental in fighting against plastic pollution. We can also contribute our few cents towards this cause. Some ways you can do that are:
+  [ul]
+  [li]Carry reusable bags whenever you go shopping.[/li]
+  [li]Refill empty plastic bottles whenever possible.[/li]
+  [li]Try to reduce the usage of single-use plastics.[/li]
+  [li]Choose plastic-free personal care products, like a bamboo comb.[/li]
+  [/ul]
 [/div]
 
 [Footer/]
@@ -89,5 +121,5 @@ Technology can help us fight this problem. And one such technology is 🥁Machin
   [/div]
 [/div]
 [div id:"decomposition" style:`{ display: 'none' }`]
-  [div className:"content"]What if plastics can be decomposed? What if they take just a few days to decompose rather than years? Let's be honest, cheap production and the immense usefulness of plastics makes them an indispensable part of our life. Although research is going on to find alternatives, they are still not well adopted. If we can find ways to decompose plastics, it can play a crucial role in saving our planet. AI can help design enzymes to do just that.[/div]
+  [div className:"content"]What if plastics can be decomposed? What if they take just a few days to decompose rather than years? Let's be honest, cheap production and the immense usefulness of plastics make them an indispensable part of our life. Although research is going on to find alternatives, they are still not well adopted. If we can find ways to decompose plastics, it can play a crucial role in saving our planet. AI can help design enzymes to do just that. Combined with plastic sorting techniques, this can help us achieve a fully circular plastic economy.[/div]
 [/div]

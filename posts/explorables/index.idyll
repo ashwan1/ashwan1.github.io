@@ -13,7 +13,7 @@
         [div className:"tile is-child is-4"]
           [ExplorableCard title:"How AI is helping save Earth from plastics!" 
             description:"Explore various use cases where AI is helping to solve plastic problem."
-            publishedOn:"2022-07-28"
+            publishedOn:"2022-08-26"
             imgSrc:"static/images/plastic_pollution.jpg"
             explorableUrl:"/ai4plasticpollution/"
             tags:`["ai4earth", "use case", "ml"]` /]

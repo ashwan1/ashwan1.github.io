@@ -10,7 +10,7 @@ class PageBanner extends React.Component {
             'bgHeroImage': this.props.imgUrl
         });
         return (
-            <section className='has-background-black-ter hero'>
+            <section className={'has-background-black-ter hero ' + this.props.heroSize}>
                 <div style={bgImage} className={heroClasses}>
                     <p className={'title ' + titleTextClass}>
                         {this.props.title}
